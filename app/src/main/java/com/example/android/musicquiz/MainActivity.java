@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
 
             // Reset score to zero.
             score = 0;
+
+            // Reset boolean checkAllQuestionsAnswered
+            checkAllQuestionsAnswered = true;
         }
 
     }
