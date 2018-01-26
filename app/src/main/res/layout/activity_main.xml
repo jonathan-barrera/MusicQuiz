@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.musicquiz.MainActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/psych_guitar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="#D9EB9D92"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="@string/title"
+                android:textColor="#084f79"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question1"
+                android:textColor="#05466c"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="@dimen/radio_margin_left"
+                android:layout_marginRight="@dimen/radio_margin_right"
+                android:background="#D9EB9D92"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <RadioButton
+                    android:id="@+id/exodus_bob_marley"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/exodus_bob_marley"
+                    android:textColor="#05466c"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/the_clash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/the_clash_the_clash"
+                    android:textColor="#05466c"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/animals_pink_floyd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/animals_pink_floyd"
+                    android:textColor="#05466c"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rumors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/rumors_fleetwood_mac"
+                    android:textColor="#05466c"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question2"
+                android:textColor="@color/blue_text_color"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#D9EB9D92"
+                android:hint="@string/enter_artist_name"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:padding="@dimen/edit_text_padding"
+                android:textColor="@color/blue_text_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question3"
+                android:textColor="@color/blue_text_color"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="@dimen/radio_margin_left"
+                android:layout_marginRight="@dimen/radio_margin_right"
+                android:background="#D9EB9D92"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <RadioButton
+                    android:id="@+id/year_1970"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/_1970"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/year_1967"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/_1967"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/year_1972"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/_1972"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/year_1969"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/_1969"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question4"
+                android:textColor="#05466c"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="@dimen/radio_margin_left"
+                android:layout_marginRight="@dimen/radio_margin_right"
+                android:background="#D9EB9D92"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <RadioButton
+                    android:id="@+id/texas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/texas"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/new_york"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/new_york"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/california"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/california"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/massachusetts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/massachusetts"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question5"
+                android:textColor="#05466c"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#D9EB9D92"
+                android:hint="@string/enter_song_name"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:padding="@dimen/edit_text_padding"
+                android:textColor="#05466c" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question6"
+                android:textColor="#05466c"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="@dimen/radio_margin_left"
+                android:layout_marginRight="@dimen/radio_margin_right"
+                android:background="#D9EB9D92"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <RadioButton
+                    android:id="@+id/jim_morrison"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/jim_morrison"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/jimi_hendrix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/jimi_hendrix"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/brian_jones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/brian_jones"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/syd_barrett"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/syd_barrett"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#D9EB9D92"
+                android:padding="@dimen/question_padding"
+                android:text="@string/question7"
+                android:textColor="#05466c"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="@dimen/radio_margin_left"
+                android:layout_marginRight="@dimen/radio_margin_right"
+                android:background="#D9EB9D92"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <RadioButton
+                    android:id="@+id/david_lee_roth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/david_lee_roth"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/ronnie_james_dio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/ronnie_james_dio"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/bruce_dickerson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/bruce_dickerson"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+
+                <RadioButton
+                    android:id="@+id/brian_johnson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/radio_button_padding"
+                    android:text="@string/brian_johnson"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_text_color"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:onClick="submitAnswers"
+                android:text="@string/submit_answers" />
+
+            <TextView
+                android:id="@+id/final_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D9EB9D92"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/blue_text_color"
+                android:textSize="32sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                android:layout_margin="16dp"
+                android:padding="@dimen/question_padding"/>
+
+            <Button
+                android:id="@+id/try_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="reset"
+                android:text="@string/try_again"
+                android:visibility="gone"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

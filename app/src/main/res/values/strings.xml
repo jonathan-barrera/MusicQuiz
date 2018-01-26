@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Music Quiz</string>
+    <string name="title">60\'s-70\'s Music Trivia</string>
+    <string name="question1">Question 1.\nWhich of the following was the best selling album of 1977?</string>
+    <string name="question2">Question 2.\nWho was the headliner at Woodstock?</string>
+    <string name="enter_artist_name">Enter artist name.</string>
+    <string name="exodus_bob_marley">Exodus - Bob Marley</string>
+    <string name="the_clash_the_clash">The Clash - The Clash</string>
+    <string name="animals_pink_floyd">Animals - Pink Floyd</string>
+    <string name="rumors_fleetwood_mac">Rumors - Fleetwood Mac</string>
+    <string name="question3">Question 3.\nThe \"Summer of Love\" occurred in which year?</string>
+    <string name="_1970">1970</string>
+    <string name="_1967">1967</string>
+    <string name="_1972">1972</string>
+    <string name="_1969">1969</string>
+    <string name="question4">Question 4.\nWhere was Janis Joplin originally from?</string>
+    <string name="texas">Texas</string>
+    <string name="new_york">New York</string>
+    <string name="california">California</string>
+    <string name="massachusetts">Massachusetts</string>
+    <string name="question5">Question 5.\nThis song, released in 1971, has been famously deemed the \"Greatest Rock Song Of All Time\".</string>
+    <string name="enter_song_name">Enter song name.</string>
+    <string name="question6">Question 6.\nWho of the following is not included in the 27 club?</string>
+    <string name="jim_morrison">Jim Morrison</string>
+    <string name="jimi_hendrix">Jimi Hendrix</string>
+    <string name="brian_jones">Brian Jones</string>
+    <string name="syd_barrett">Syd Barrett</string>
+    <string name="question7">Question 7.\nWho replaced Black Sabbath\'s original singer, Ozzy Osbourne, in 1979?</string>
+    <string name="david_lee_roth">David Lee Roth</string>
+    <string name="ronnie_james_dio">Ronnie James Dio</string>
+    <string name="bruce_dickerson">Bruce Dickerson</string>
+    <string name="brian_johnson">Brian Johnson</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="try_again">Try again?</string>
+</resources>
