@@ -27,11 +27,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:fontFamily="serif-monospace"
                 android:gravity="center"
                 android:text="@string/title"
-                android:textColor="#084f79"
+                android:textColor="#000000"
                 android:textSize="36sp"
                 android:textStyle="bold" />
 
@@ -41,10 +41,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question1"
-                android:textColor="#05466c"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <RadioGroup
@@ -54,7 +54,7 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="@dimen/radio_margin_left"
                 android:layout_marginRight="@dimen/radio_margin_right"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:orientation="vertical"
                 android:padding="4dp">
 
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/exodus_bob_marley"
-                    android:textColor="#05466c"
+                    android:textColor="#000000"
                     android:textSize="16sp" />
 
                 <RadioButton
@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/the_clash_the_clash"
-                    android:textColor="#05466c"
+                    android:textColor="#000000"
                     android:textSize="16sp" />
 
                 <RadioButton
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/animals_pink_floyd"
-                    android:textColor="#05466c"
+                    android:textColor="#000000"
                     android:textSize="16sp" />
 
                 <RadioButton
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/rumors_fleetwood_mac"
-                    android:textColor="#05466c"
+                    android:textColor="#000000"
                     android:textSize="16sp" />
             </RadioGroup>
 
@@ -101,10 +101,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question2"
-                android:textColor="@color/blue_text_color"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <EditText
@@ -114,13 +114,13 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:hint="@string/enter_artist_name"
                 android:imeOptions="actionDone"
                 android:inputType="textCapWords"
                 android:maxLines="1"
                 android:padding="@dimen/edit_text_padding"
-                android:textColor="@color/blue_text_color" />
+                android:textColor="#000000" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -128,10 +128,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question3"
-                android:textColor="@color/blue_text_color"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <RadioGroup
@@ -141,7 +141,7 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="@dimen/radio_margin_left"
                 android:layout_marginRight="@dimen/radio_margin_right"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:orientation="vertical"
                 android:padding="4dp">
 
@@ -188,10 +188,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question4"
-                android:textColor="#05466c"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <RadioGroup
@@ -201,7 +201,7 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="@dimen/radio_margin_left"
                 android:layout_marginRight="@dimen/radio_margin_right"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:orientation="vertical"
                 android:padding="4dp">
 
@@ -248,10 +248,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question5"
-                android:textColor="#05466c"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <EditText
@@ -261,13 +261,13 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:hint="@string/enter_song_name"
                 android:imeOptions="actionDone"
                 android:inputType="textCapWords"
                 android:maxLines="1"
                 android:padding="@dimen/edit_text_padding"
-                android:textColor="#05466c" />
+                android:textColor="#000000" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -275,10 +275,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question6"
-                android:textColor="#05466c"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <RadioGroup
@@ -288,7 +288,7 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="@dimen/radio_margin_left"
                 android:layout_marginRight="@dimen/radio_margin_right"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:orientation="vertical"
                 android:padding="4dp">
 
@@ -335,10 +335,10 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:padding="@dimen/question_padding"
                 android:text="@string/question7"
-                android:textColor="#05466c"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <RadioGroup
@@ -348,7 +348,7 @@
                 android:layout_marginBottom="@dimen/question_spacing"
                 android:layout_marginLeft="@dimen/radio_margin_left"
                 android:layout_marginRight="@dimen/radio_margin_right"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:orientation="vertical"
                 android:padding="4dp">
 
@@ -402,7 +402,7 @@
                 android:id="@+id/final_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#D9EB9D92"
+                android:background="#E6EB9D92"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center_horizontal"
                 android:text=""
