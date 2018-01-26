@@ -16,10 +16,68 @@ public class MainActivity extends AppCompatActivity {
     int score = 0;
     boolean checkAllQuestionsAnswered = true;
 
+    // Define global variables
+    // Question 1
+    RadioGroup question1;
+    RadioButton correctAnswer1;
+
+    // Question 2
+    String userAnswer2;
+    String correctAnswer2;
+
+    // Question 3
+    RadioGroup question3;
+    RadioButton correctAnswer3;
+
+    // Question 4
+    RadioGroup question4;
+    RadioButton correctAnswer4;
+
+    // Question 5
+    String userAnswer5;
+    String correctAnswer5;
+
+    // Question 6
+    RadioGroup question6;
+    RadioButton correctAnswer6;
+
+    // Question 7
+    RadioGroup question7;
+    RadioButton correctAnswer7;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Initialize views
+        // Question 1
+        question1 = (RadioGroup) findViewById(R.id.question1);
+        correctAnswer1 = (RadioButton) findViewById(R.id.rumors);
+
+        // Question 2
+        userAnswer2 = ((EditText) findViewById(R.id.question2)).getText().toString();
+        correctAnswer2 = "jimi hendrix";
+
+        // Question 3
+        question3 = (RadioGroup) findViewById(R.id.question3);
+        correctAnswer3 = (RadioButton) findViewById(R.id.year_1967);
+
+        // Question 4
+        question4 = (RadioGroup) findViewById(R.id.question4);
+        correctAnswer4 = (RadioButton) findViewById(R.id.texas);
+
+        // Question 5
+        userAnswer5 = ((EditText) findViewById(R.id.question5)).getText().toString();
+        correctAnswer5 = "stairway to heaven";
+
+        // Question 6
+        question6 = (RadioGroup) findViewById(R.id.question6);
+        correctAnswer6 = (RadioButton) findViewById(R.id.syd_barrett);
+
+        // Question 7
+        question7 = (RadioGroup) findViewById(R.id.question7);
+        correctAnswer7 = (RadioButton) findViewById(R.id.ronnie_james_dio);
     }
 
     /**
@@ -28,45 +86,24 @@ public class MainActivity extends AppCompatActivity {
     public void submitAnswers(View view) {
 
         // Check the first question
-        RadioGroup question1 = (RadioGroup) findViewById(R.id.question1);
-        RadioButton correctAnswer1 = (RadioButton) findViewById(R.id.rumors);
-
         checkRadioGroupQuestion(question1, correctAnswer1);
 
         // Check the second question
-        String userAnswer2 = ((EditText) findViewById(R.id.question2)).getText().toString();
-        String correctAnswer2 = "jimi hendrix";
-
         checkEditTextQuestion(userAnswer2, correctAnswer2);
 
         // Check the third question
-        RadioGroup question3 = (RadioGroup) findViewById(R.id.question3);
-        RadioButton correctAnswer3 = (RadioButton) findViewById(R.id.year_1967);
-
         checkRadioGroupQuestion(question3, correctAnswer3);
 
         // Check the fourth question
-        RadioGroup question4 = (RadioGroup) findViewById(R.id.question4);
-        RadioButton correctAnswer4 = (RadioButton) findViewById(R.id.texas);
-
         checkRadioGroupQuestion(question4, correctAnswer4);
 
         // Check the fifth question
-        String userAnswer5 = ((EditText) findViewById(R.id.question5)).getText().toString();
-        String correctAnswer5 = "stairway to heaven";
-
         checkEditTextQuestion(userAnswer5, correctAnswer5);
 
         // Check the sixth question
-        RadioGroup question6 = (RadioGroup) findViewById(R.id.question6);
-        RadioButton correctAnswer6 = (RadioButton) findViewById(R.id.syd_barrett);
-
         checkRadioGroupQuestion(question6, correctAnswer6);
 
         // Check the seventh question
-        RadioGroup question7 = (RadioGroup) findViewById(R.id.question7);
-        RadioButton correctAnswer7 = (RadioButton) findViewById(R.id.ronnie_james_dio);
-
         checkRadioGroupQuestion(question7, correctAnswer7);
 
         if (checkAllQuestionsAnswered) {
