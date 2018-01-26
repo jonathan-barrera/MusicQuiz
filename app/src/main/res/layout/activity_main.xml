@@ -151,8 +151,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/_1970"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/year_1967"
@@ -160,8 +160,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/_1967"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/year_1972"
@@ -169,8 +169,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/_1972"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/year_1969"
@@ -178,8 +178,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/_1969"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
             </RadioGroup>
 
             <TextView
@@ -211,8 +211,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/texas"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/new_york"
@@ -220,8 +220,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/new_york"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/california"
@@ -229,8 +229,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/california"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/massachusetts"
@@ -238,8 +238,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/massachusetts"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
             </RadioGroup>
 
             <TextView
@@ -298,8 +298,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/jim_morrison"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/jimi_hendrix"
@@ -307,8 +307,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/jimi_hendrix"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/brian_jones"
@@ -316,8 +316,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/brian_jones"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/syd_barrett"
@@ -325,8 +325,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/syd_barrett"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
             </RadioGroup>
 
             <TextView
@@ -358,8 +358,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/david_lee_roth"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/ronnie_james_dio"
@@ -367,8 +367,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/ronnie_james_dio"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/bruce_dickerson"
@@ -376,8 +376,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/bruce_dickerson"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/brian_johnson"
@@ -385,8 +385,8 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/radio_button_padding"
                     android:text="@string/brian_johnson"
-                    android:textSize="16sp"
-                    android:textColor="@color/blue_text_color"/>
+                    android:textColor="@color/blue_text_color"
+                    android:textSize="16sp" />
             </RadioGroup>
 
             <Button
@@ -402,26 +402,26 @@
                 android:id="@+id/final_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 android:background="#E6EB9D92"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center_horizontal"
+                android:padding="@dimen/question_padding"
                 android:text=""
                 android:textColor="@color/blue_text_color"
                 android:textSize="32sp"
                 android:textStyle="italic"
-                android:visibility="gone"
-                android:layout_margin="16dp"
-                android:padding="@dimen/question_padding"/>
+                android:visibility="gone" />
 
             <Button
                 android:id="@+id/try_again"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
                 android:onClick="reset"
                 android:text="@string/try_again"
-                android:visibility="gone"
-                android:layout_marginBottom="16dp"/>
+                android:visibility="gone" />
 
         </LinearLayout>
     </ScrollView>
