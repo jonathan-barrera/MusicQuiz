@@ -389,6 +389,46 @@
                     android:textSize="16sp" />
             </RadioGroup>
 
+            <RelativeLayout
+                android:id="@+id/question_8_song_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/question_padding"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#E6EB9D92">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question8"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+                <ImageView
+                    android:src="@drawable/play_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/question_spacing"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#E6EB9D92"
+                android:hint="@string/enter_song_name"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:padding="@dimen/edit_text_padding"
+                android:textColor="#000000" />
+
+
             <Button
                 android:id="@+id/submit_answers"
                 android:layout_width="wrap_content"
@@ -422,6 +462,8 @@
                 android:onClick="reset"
                 android:text="@string/try_again"
                 android:visibility="gone" />
+
+
 
         </LinearLayout>
     </ScrollView>
